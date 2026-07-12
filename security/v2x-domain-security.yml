@@ -1,0 +1,23 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.gov2x.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 17 12:41:38 2026 GMT
+  hsts: true
+  hsts_max_age: 31622400
+domains:
+- domain: gov2x.com
+  dnssec: false
+  caa:
+  - 0 issue "sectigo.com"
+  - 0 issuewild "sectigo.com"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "26caf1396a7087273d5c93611d7908f5.bd0506eac4b9c2bb6acb66fdabaf5202.sectigo.com"
+  - 0 issue "pki.goog"
+  - 0 issuemail "sectigo.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
