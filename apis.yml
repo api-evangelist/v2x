@@ -2,6 +2,17 @@ aid: v2x
 url: https://github.com/api-evangelist/v2x
 name: V2X
 type: Index
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://avatars.githubusercontent.com/u/api-evangelist
 tags:
   - Defense
