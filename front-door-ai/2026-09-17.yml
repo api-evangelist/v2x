@@ -1,0 +1,26 @@
+# Front Door AI Index — v2x — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: v2x
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.gov2x.com
+  final_host: gov2x.com
+  ownership: own
+  owner: v2x
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 9
+  host_score: 9
+  density: 8.57
+  words: 1050
+  tiers:
+    agentic: 0
+    core: 9
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 8
+    machine learning: 1
